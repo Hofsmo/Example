@@ -1,9 +1,8 @@
 """Module containing an example function."""
 import scipy.signal as sig
-import numpy as np
 
 
-def preprocess_data(signal, window=100, detrend=True):
+def preprocess_data(signal, factor=5, detrend=True):
     """Function that preproccesses some data.
 
     This functions preproccesses a signal by detrending it
@@ -11,7 +10,7 @@ def preprocess_data(signal, window=100, detrend=True):
 
     Args:
         signal: Input signal
-        window: Window size used for the moving average filter
+        factor: Decimation factor
         detrend: Whether or not to detrend the signal
 
     Output:
@@ -21,6 +20,4 @@ def preprocess_data(signal, window=100, detrend=True):
     if detrend:
         signal = sig.detrend
 
-    # Apply a moving average filter using convolution
-    window = np.ones(window)/float(window)
-    return np.convolve(signal, window, 'same')
+    return sig.decimate(signal, factor)
