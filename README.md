@@ -1,2 +1,4 @@
 # Example
-Example repository created for the friday colloquium at NTNU
+Example repository created for presentations at NTNU
+
+Readmes are nice for telling people about your code.
