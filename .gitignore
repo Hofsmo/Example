@@ -91,3 +91,6 @@ ENV/
 # Ignore vim stuff
 *.swo
 *.swp
+
+# Backup files
+*.un~
