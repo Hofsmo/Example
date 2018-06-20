@@ -1,4 +1,4 @@
-"""Read in band beard lengths and calculating relation to church burning."""
+"""Read in band beard lengths and calculate relation to church burnings."""
 import csv
 import os
 
