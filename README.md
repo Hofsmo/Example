@@ -9,6 +9,12 @@ https://www.git-scm.com/book/en/v2/ (this is the official online git documentati
 ## Python code guidelines:
 https://www.python.org/dev/peps/pep-0008/
 
+## How to package Python software:
+https://packaging.python.org/guides/tool-recommendations/
+
+## Gtiflow a workflow for git:
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
 ## Google docstring guide:
 http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
